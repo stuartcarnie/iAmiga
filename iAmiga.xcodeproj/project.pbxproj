@@ -256,6 +256,9 @@
 		054B9EA41419C5A100F33378 /* Wings_2.adf in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EA21419C5A100F33378 /* Wings_2.adf */; };
 		054B9EA51419C5C700F33378 /* Wings_2.adf in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EA21419C5A100F33378 /* Wings_2.adf */; };
 		054B9EA61419C5CA00F33378 /* Wings_1.adf in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EA11419C5A100F33378 /* Wings_1.adf */; };
+		054B9EA71419DF3400F33378 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05084E4913D7FE7B0004617A /* libz.dylib */; };
+		054B9EA81419E2F800F33378 /* InputControllerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0504155E0FCB475C00F46828 /* InputControllerView.mm */; };
+		054B9EA91419E2F900F33378 /* InputControllerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0504155E0FCB475C00F46828 /* InputControllerView.mm */; };
 		0552BD240F3D797C005B30DF /* autoconf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9D0F3D797C005B30DF /* autoconf.cpp */; };
 		0552BD250F3D797C005B30DF /* blitfunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9E0F3D797C005B30DF /* blitfunc.cpp */; };
 		0552BD260F3D797C005B30DF /* blittable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9F0F3D797C005B30DF /* blittable.cpp */; };
@@ -852,6 +855,7 @@
 				0577C0E512DED4DF0040B77D /* CFNetwork.framework in Frameworks */,
 				0577C1C512DFF3610040B77D /* OpenGLES.framework in Frameworks */,
 				0577C1D812DFF3910040B77D /* QuartzCore.framework in Frameworks */,
+				054B9EA71419DF3400F33378 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2232,6 +2236,7 @@
 				055FD7F913B45AAA00BB3F8B /* AnimatedImageSequenceView.m in Sources */,
 				05BB086113CC18FC00278699 /* DOTCEmulationViewController.m in Sources */,
 				05BB086513CC235500278699 /* LambdaAlert.m in Sources */,
+				054B9EA91419E2F900F33378 /* InputControllerView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2297,6 +2302,7 @@
 				054B9E821419BB0F00F33378 /* AnimatedImageSequenceView.m in Sources */,
 				054B9E831419BB0F00F33378 /* DOTCEmulationViewController.m in Sources */,
 				054B9E841419BB0F00F33378 /* LambdaAlert.m in Sources */,
+				054B9EA81419E2F800F33378 /* InputControllerView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

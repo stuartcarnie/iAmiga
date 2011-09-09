@@ -15,6 +15,7 @@
     UIButton *closeButton;
     UIView *mouseHandler;
     UIButton *restartButton;
+    UIView *inputController;
     UIView *menuView;
     UIWebView *webView;
 }
@@ -27,5 +28,6 @@
 @property (nonatomic, retain) IBOutlet UIButton *closeButton;
 @property (nonatomic, retain) IBOutlet UIView *mouseHandler;
 @property (nonatomic, retain) IBOutlet UIButton *restartButton;
+@property (nonatomic, retain) IBOutlet UIView *inputController;
 
 @end

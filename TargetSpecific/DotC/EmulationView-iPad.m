@@ -19,6 +19,7 @@
 @synthesize closeButton;
 @synthesize mouseHandler;
 @synthesize restartButton;
+@synthesize inputController;
 
 #pragma mark - View lifecycle
 
@@ -30,7 +31,6 @@
 #ifdef USE_JOYSTICK
     mouseHandler.hidden = YES;
 #endif
-
 }
 
 - (void)dealloc {
@@ -40,6 +40,7 @@
     [mouseHandler release];
     [webView release];
     [restartButton release];
+    [inputController release];
     [super dealloc];
 }
 
@@ -50,6 +51,7 @@
     [self setMouseHandler:nil];
     [self setWebView:nil];
     [self setRestartButton:nil];
+    [self setInputController:nil];
     [super viewDidUnload];
 }
 
