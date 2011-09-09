@@ -7,11 +7,17 @@
   * Copyright 1995-2001 Bernd Schmidt
   */
 
+#if defined (AMIGA_OPTIONS)
+#include "app-options.h"
+#endif
+
 #define UAEMAJOR 0
 #define UAEMINOR 8
 #define UAESUBREV 22
 
+#ifndef NUM_DRIVES
 #define NUM_DRIVES 2
+#endif
 
 typedef enum { KBD_LANG_US, KBD_LANG_DK, KBD_LANG_DE, KBD_LANG_SE, KBD_LANG_FR, KBD_LANG_IT, KBD_LANG_ES } KbdLang;
 
