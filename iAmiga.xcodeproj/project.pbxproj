@@ -123,8 +123,6 @@
 		054B9E071419BB0F00F33378 /* jquery-1.4.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 05A1502513BDA852009A12B2 /* jquery-1.4.4.min.js */; };
 		054B9E081419BB0F00F33378 /* kick.rom in Resources */ = {isa = PBXBuildFile; fileRef = 057440D50FC2A4A7003BE251 /* kick.rom */; };
 		054B9E091419BB0F00F33378 /* kick13.rom in Resources */ = {isa = PBXBuildFile; fileRef = 057443290FC3C94F003BE251 /* kick13.rom */; };
-		054B9E0A1419BB0F00F33378 /* Defender OTC1.ADF in Resources */ = {isa = PBXBuildFile; fileRef = 05BC17D91070B74E00EABC6E /* Defender OTC1.ADF */; };
-		054B9E0B1419BB0F00F33378 /* Defender OTC2.ADF in Resources */ = {isa = PBXBuildFile; fileRef = 05BC17DA1070B74E00EABC6E /* Defender OTC2.ADF */; };
 		054B9E0C1419BB0F00F33378 /* kick31.rom in Resources */ = {isa = PBXBuildFile; fileRef = 05F5F217112A54F1001530EC /* kick31.rom */; };
 		054B9E0D1419BB0F00F33378 /* Scanlines (50%).png in Resources */ = {isa = PBXBuildFile; fileRef = 0577C34712E1723F0040B77D /* Scanlines (50%).png */; };
 		054B9E0E1419BB0F00F33378 /* Scanlines (100%).png in Resources */ = {isa = PBXBuildFile; fileRef = 0577C34812E1723F0040B77D /* Scanlines (100%).png */; };
@@ -253,6 +251,11 @@
 		054B9E8B1419BB0F00F33378 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577C0E412DED4DF0040B77D /* CFNetwork.framework */; };
 		054B9E8C1419BB0F00F33378 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577C1C412DFF3610040B77D /* OpenGLES.framework */; };
 		054B9E8D1419BB0F00F33378 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577C1D712DFF3910040B77D /* QuartzCore.framework */; };
+		054B9E9F1419C46100F33378 /* Wings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 054B9E9E1419C46100F33378 /* Wings.xcconfig */; };
+		054B9EA31419C5A100F33378 /* Wings_1.adf in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EA11419C5A100F33378 /* Wings_1.adf */; };
+		054B9EA41419C5A100F33378 /* Wings_2.adf in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EA21419C5A100F33378 /* Wings_2.adf */; };
+		054B9EA51419C5C700F33378 /* Wings_2.adf in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EA21419C5A100F33378 /* Wings_2.adf */; };
+		054B9EA61419C5CA00F33378 /* Wings_1.adf in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EA11419C5A100F33378 /* Wings_1.adf */; };
 		0552BD240F3D797C005B30DF /* autoconf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9D0F3D797C005B30DF /* autoconf.cpp */; };
 		0552BD250F3D797C005B30DF /* blitfunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9E0F3D797C005B30DF /* blitfunc.cpp */; };
 		0552BD260F3D797C005B30DF /* blittable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9F0F3D797C005B30DF /* blittable.cpp */; };
@@ -490,7 +493,12 @@
 		0545257C106EBB590032FC41 /* Events2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events2.h; sourceTree = "<group>"; };
 		0545257D106EBB590032FC41 /* Events2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Events2.c; sourceTree = "<group>"; };
 		054525AF106EC5550032FC41 /* combined_modules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = combined_modules.cpp; sourceTree = "<group>"; };
-		054B9E921419BB0F00F33378 /* DotC copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DotC copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		054B9E921419BB0F00F33378 /* DotC copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "DotC copy.app"; path = Wings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054B9E9D1419C41D00F33378 /* Info-Wings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Wings.plist"; sourceTree = "<group>"; };
+		054B9E9E1419C46100F33378 /* Wings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Wings.xcconfig; sourceTree = "<group>"; };
+		054B9EA01419C4AC00F33378 /* app-options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "app-options.h"; sourceTree = "<group>"; };
+		054B9EA11419C5A100F33378 /* Wings_1.adf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wings_1.adf; sourceTree = "<group>"; };
+		054B9EA21419C5A100F33378 /* Wings_2.adf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wings_2.adf; sourceTree = "<group>"; };
 		0552BC9C0F3D797C005B30DF /* audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio.cpp; sourceTree = "<group>"; };
 		0552BC9D0F3D797C005B30DF /* autoconf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = autoconf.cpp; sourceTree = "<group>"; };
 		0552BC9E0F3D797C005B30DF /* blitfunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blitfunc.cpp; sourceTree = "<group>"; };
@@ -1124,6 +1132,9 @@
 		054B9E951419BB2E00F33378 /* Wings */ = {
 			isa = PBXGroup;
 			children = (
+				054B9E9D1419C41D00F33378 /* Info-Wings.plist */,
+				054B9E9E1419C46100F33378 /* Wings.xcconfig */,
+				054B9EA01419C4AC00F33378 /* app-options.h */,
 			);
 			path = Wings;
 			sourceTree = "<group>";
@@ -1731,6 +1742,8 @@
 		05ECEBAC1091CD86001A71D0 /* w */ = {
 			isa = PBXGroup;
 			children = (
+				054B9EA11419C5A100F33378 /* Wings_1.adf */,
+				054B9EA21419C5A100F33378 /* Wings_2.adf */,
 				05ECEBAD1091CD9A001A71D0 /* Wizball.adf */,
 			);
 			path = w;
@@ -2013,8 +2026,6 @@
 				054B9E071419BB0F00F33378 /* jquery-1.4.4.min.js in Resources */,
 				054B9E081419BB0F00F33378 /* kick.rom in Resources */,
 				054B9E091419BB0F00F33378 /* kick13.rom in Resources */,
-				054B9E0A1419BB0F00F33378 /* Defender OTC1.ADF in Resources */,
-				054B9E0B1419BB0F00F33378 /* Defender OTC2.ADF in Resources */,
 				054B9E0C1419BB0F00F33378 /* kick31.rom in Resources */,
 				054B9E0D1419BB0F00F33378 /* Scanlines (50%).png in Resources */,
 				054B9E0E1419BB0F00F33378 /* Scanlines (100%).png in Resources */,
@@ -2077,6 +2088,9 @@
 				054B9E471419BB0F00F33378 /* intro_4.png in Resources */,
 				054B9E481419BB0F00F33378 /* intro_4@2x.png in Resources */,
 				054B9E491419BB0F00F33378 /* intro_4~ipad.png in Resources */,
+				054B9E9F1419C46100F33378 /* Wings.xcconfig in Resources */,
+				054B9EA31419C5A100F33378 /* Wings_1.adf in Resources */,
+				054B9EA41419C5A100F33378 /* Wings_2.adf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2148,6 +2162,8 @@
 				05619EDC13ADE1AA00341DB0 /* SelectHardware.xib in Resources */,
 				058063D013B06DD800E00B04 /* Icon-72.png in Resources */,
 				05789FB913B1436200A72F5F /* Entitlements.plist in Resources */,
+				054B9EA51419C5C700F33378 /* Wings_2.adf in Resources */,
+				054B9EA61419C5CA00F33378 /* Wings_1.adf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2421,6 +2437,7 @@
 		};
 		054B9E8F1419BB0F00F33378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054B9E9E1419C46100F33378 /* Wings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
@@ -2441,6 +2458,7 @@
 		};
 		054B9E901419BB0F00F33378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054B9E9E1419C46100F33378 /* Wings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -2459,6 +2477,7 @@
 		};
 		054B9E911419BB0F00F33378 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054B9E9E1419C46100F33378 /* Wings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Manomio LLC";

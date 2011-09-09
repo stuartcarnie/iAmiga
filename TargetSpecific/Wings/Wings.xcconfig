@@ -1,0 +1,11 @@
+//
+//  Wings.xcconfig
+//  iAmiga
+//
+//  Created by Stuart Carnie on 9/8/11.
+//  Copyright 2011 Manomio LLC. All rights reserved.
+//
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) AMIGA_OPTIONS
+
+HEADER_SEARCH_PATHS = "TargetSpecific/Wings" $(inherited)

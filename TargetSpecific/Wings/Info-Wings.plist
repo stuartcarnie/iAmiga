@@ -48,5 +48,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>ADFs</key>
+	<array>
+		<string>Wings_1.adf</string>
+		<string>Wings_2.adf</string>
+	</array>
 </dict>
 </plist>
