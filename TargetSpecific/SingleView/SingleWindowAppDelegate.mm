@@ -29,12 +29,15 @@
 @synthesize window, mainController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-    // load disks into df0: and df1:
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Defender OTC1" ofType:@"ADF"];
-    [path getCString:prefs_df[0] maxLength:256 encoding:[NSString defaultCStringEncoding]];
-    path = [[NSBundle mainBundle] pathForResource:@"Defender OTC2" ofType:@"ADF"];
-    [path getCString:prefs_df[1] maxLength:256 encoding:[NSString defaultCStringEncoding]];
-
+    
+    NSArray *adfs = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"ADFs"];
+    int df = 0;
+    for (NSString *adf in adfs) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:adf ofType:nil];
+        [path getCString:prefs_df[df++] maxLength:256 encoding:[NSString defaultCStringEncoding]];
+        if (df >= NUM_DRIVES) break;
+    }
+    
     [window addSubview:self.mainController.view];
 	
     // Override point for customization after application launch

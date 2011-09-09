@@ -48,5 +48,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>ADFs</key>
+	<array>
+		<string>Defender OTC1.ADF</string>
+		<string>Defender OTC2.ADF</string>
+	</array>
 </dict>
 </plist>
