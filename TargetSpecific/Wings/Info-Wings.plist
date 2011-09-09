@@ -10,10 +10,10 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>Icon-DotC</string>
-		<string>Icon-DotC.png</string>
-		<string>Icon-DotC@2x.png</string>
-		<string>Icon-DotC-72.png</string>
+		<string>Icon-Wings</string>
+		<string>Icon-Wings.png</string>
+		<string>Icon-Wings@2x.png</string>
+		<string>Icon-Wings-72.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.manomio.iAmiga.${PRODUCT_NAME:identifier}</string>

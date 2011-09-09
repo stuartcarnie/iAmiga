@@ -134,9 +134,6 @@
 		054B9E141419BB0F00F33378 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05789FB813B1436200A72F5F /* Entitlements.plist */; };
 		054B9E151419BB0F00F33378 /* MainWindow-Single.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053368BA13B1D75E0012D55A /* MainWindow-Single.xib */; };
 		054B9E161419BB0F00F33378 /* MainWindow-Single-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053368B313B1BF910012D55A /* MainWindow-Single-iPad.xib */; };
-		054B9E171419BB0F00F33378 /* Icon-DotC-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 053D8B3213B1B9E20002802F /* Icon-DotC-72.png */; };
-		054B9E181419BB0F00F33378 /* Icon-DotC.png in Resources */ = {isa = PBXBuildFile; fileRef = 053D8B3313B1B9E20002802F /* Icon-DotC.png */; };
-		054B9E191419BB0F00F33378 /* Icon-DotC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053D8B3413B1B9E20002802F /* Icon-DotC@2x.png */; };
 		054B9E1A1419BB0F00F33378 /* chrome-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 057B26A113B30CB4006BB230 /* chrome-bottom.png */; };
 		054B9E1B1419BB0F00F33378 /* chrome-bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 057B26A213B30CB4006BB230 /* chrome-bottom@2x.png */; };
 		054B9E1C1419BB0F00F33378 /* chrome-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 057B26A313B30CB4006BB230 /* chrome-top.png */; };
@@ -259,6 +256,9 @@
 		054B9EA71419DF3400F33378 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05084E4913D7FE7B0004617A /* libz.dylib */; };
 		054B9EA81419E2F800F33378 /* InputControllerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0504155E0FCB475C00F46828 /* InputControllerView.mm */; };
 		054B9EA91419E2F900F33378 /* InputControllerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0504155E0FCB475C00F46828 /* InputControllerView.mm */; };
+		054B9EAD1419F43000F33378 /* Icon-Wings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EAA1419F43000F33378 /* Icon-Wings@2x.png */; };
+		054B9EAE1419F43000F33378 /* Icon-Wings-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EAB1419F43000F33378 /* Icon-Wings-72.png */; };
+		054B9EAF1419F43000F33378 /* Icon-Wings.png in Resources */ = {isa = PBXBuildFile; fileRef = 054B9EAC1419F43000F33378 /* Icon-Wings.png */; };
 		0552BD240F3D797C005B30DF /* autoconf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9D0F3D797C005B30DF /* autoconf.cpp */; };
 		0552BD250F3D797C005B30DF /* blitfunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9E0F3D797C005B30DF /* blitfunc.cpp */; };
 		0552BD260F3D797C005B30DF /* blittable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0552BC9F0F3D797C005B30DF /* blittable.cpp */; };
@@ -502,6 +502,9 @@
 		054B9EA01419C4AC00F33378 /* app-options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "app-options.h"; sourceTree = "<group>"; };
 		054B9EA11419C5A100F33378 /* Wings_1.adf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wings_1.adf; sourceTree = "<group>"; };
 		054B9EA21419C5A100F33378 /* Wings_2.adf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wings_2.adf; sourceTree = "<group>"; };
+		054B9EAA1419F43000F33378 /* Icon-Wings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Wings@2x.png"; sourceTree = "<group>"; };
+		054B9EAB1419F43000F33378 /* Icon-Wings-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Wings-72.png"; sourceTree = "<group>"; };
+		054B9EAC1419F43000F33378 /* Icon-Wings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Wings.png"; sourceTree = "<group>"; };
 		0552BC9C0F3D797C005B30DF /* audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio.cpp; sourceTree = "<group>"; };
 		0552BC9D0F3D797C005B30DF /* autoconf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = autoconf.cpp; sourceTree = "<group>"; };
 		0552BC9E0F3D797C005B30DF /* blitfunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blitfunc.cpp; sourceTree = "<group>"; };
@@ -1136,6 +1139,9 @@
 		054B9E951419BB2E00F33378 /* Wings */ = {
 			isa = PBXGroup;
 			children = (
+				054B9EAA1419F43000F33378 /* Icon-Wings@2x.png */,
+				054B9EAB1419F43000F33378 /* Icon-Wings-72.png */,
+				054B9EAC1419F43000F33378 /* Icon-Wings.png */,
 				054B9E9D1419C41D00F33378 /* Info-Wings.plist */,
 				054B9E9E1419C46100F33378 /* Wings.xcconfig */,
 				054B9EA01419C4AC00F33378 /* app-options.h */,
@@ -2041,9 +2047,6 @@
 				054B9E141419BB0F00F33378 /* Entitlements.plist in Resources */,
 				054B9E151419BB0F00F33378 /* MainWindow-Single.xib in Resources */,
 				054B9E161419BB0F00F33378 /* MainWindow-Single-iPad.xib in Resources */,
-				054B9E171419BB0F00F33378 /* Icon-DotC-72.png in Resources */,
-				054B9E181419BB0F00F33378 /* Icon-DotC.png in Resources */,
-				054B9E191419BB0F00F33378 /* Icon-DotC@2x.png in Resources */,
 				054B9E1A1419BB0F00F33378 /* chrome-bottom.png in Resources */,
 				054B9E1B1419BB0F00F33378 /* chrome-bottom@2x.png in Resources */,
 				054B9E1C1419BB0F00F33378 /* chrome-top.png in Resources */,
@@ -2095,6 +2098,9 @@
 				054B9E9F1419C46100F33378 /* Wings.xcconfig in Resources */,
 				054B9EA31419C5A100F33378 /* Wings_1.adf in Resources */,
 				054B9EA41419C5A100F33378 /* Wings_2.adf in Resources */,
+				054B9EAD1419F43000F33378 /* Icon-Wings@2x.png in Resources */,
+				054B9EAE1419F43000F33378 /* Icon-Wings-72.png in Resources */,
+				054B9EAF1419F43000F33378 /* Icon-Wings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
