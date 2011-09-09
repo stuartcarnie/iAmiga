@@ -7,6 +7,10 @@
 //
 
 #import "EmulationView-iPad.h"
+#import "sysconfig.h"
+#import "sysdeps.h"
+#import "options.h"
+
 
 @implementation EmulationViewiPad
 @synthesize menuView;
@@ -23,6 +27,10 @@
     [webView setBackgroundColor:[UIColor clearColor]];
     [webView setOpaque:NO];
     webView.delegate = self;
+#ifdef USE_JOYSTICK
+    mouseHandler.hidden = YES;
+#endif
+
 }
 
 - (void)dealloc {

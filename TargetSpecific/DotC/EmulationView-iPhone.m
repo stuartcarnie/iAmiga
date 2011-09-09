@@ -7,6 +7,9 @@
 //
 
 #import "EmulationView-iPhone.h"
+#import "sysconfig.h"
+#import "sysdeps.h"
+#import "options.h"
 
 @implementation EmulationViewiPhone
 @synthesize menuView;
@@ -16,6 +19,7 @@
 @synthesize closeButton;
 @synthesize menuButton;
 @synthesize restartButton;
+@synthesize inputController;
 
 #pragma mark - View lifecycle
 
@@ -24,6 +28,10 @@
     [webView setBackgroundColor:[UIColor clearColor]];
     [webView setOpaque:NO];
     webView.delegate = self;
+#ifdef USE_JOYSTICK
+    mouseHandler.hidden = YES;
+#endif
+    
 }
 
 - (void)dealloc {
@@ -34,6 +42,7 @@
     [closeButton release];
     [menuButton release];
     [restartButton release];
+    [inputController release];
     [super dealloc];
 }
 
@@ -45,6 +54,7 @@
     [self setCloseButton:nil];
     [self setMenuButton:nil];
     [self setRestartButton:nil];
+    [self setInputController:nil];
     [super viewDidUnload];
 }
 

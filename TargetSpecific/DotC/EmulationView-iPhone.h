@@ -18,6 +18,7 @@
     UIButton *closeButton;
     UIButton *menuButton;
     UIButton *restartButton;
+    UIView *inputController;
     CGFloat _menuViewStartY;
     CGFloat _bottomBarStartY;
 }
@@ -31,5 +32,6 @@
 @property (nonatomic, retain) IBOutlet UIButton *closeButton;
 @property (nonatomic, retain) IBOutlet UIButton *menuButton;
 @property (nonatomic, retain) IBOutlet UIButton *restartButton;
+@property (nonatomic, retain) IBOutlet UIView *inputController;
 
 @end
