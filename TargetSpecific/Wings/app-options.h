@@ -9,6 +9,7 @@
 #ifndef iAmiga_app_options_h
 #define iAmiga_app_options_h
 
-
+#define USE_JOYSTICK
+//#define SWAP_JOYSTICK
 
 #endif
