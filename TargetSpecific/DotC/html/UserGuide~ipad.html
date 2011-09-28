@@ -24,15 +24,28 @@ var tabbar = false;
 document.addEventListener('DOMContentLoaded', loaded, false);
     
 var bundleVersion = '';
+var uiLanguage = '';
+    
 function setVersion(ver) {
     bundleVersion = ver;
 }
-
+    
 function loaded() {
+    
+    var language = window.navigator.userLanguage || window.navigator.language;
+    if (language.startsWith('de')) 
+        uiLanguage = '.de';
 
 	document.addEventListener('touchmove', function(e){ e.preventDefault(); e.stopPropagation(); });
+    
+    var fromPath = from;
+    var localPath = localizePath(from);
+    if (!is(localPath, 'String')) {
+        from = localPath.to;
+        fromPath = localPath.path;
+    }
 	
-	$.get(from+'.html', function(data) {
+	$.get(fromPath+'.html', function(data) {
 		$('#left').html(data);
 		$('#spinner').fadeOut('slow');
 	});
@@ -48,14 +61,14 @@ function loaded() {
 	});
 	
 	$('#helpbtn').click(function() {
-	  loadpage('help','FADE');
+	  loadpage(localizePath('help'),'FADE');
 	document.getElementById('aboutbtnimg').src='images/icon_about.png';
 	document.getElementById('helpbtnimg').src='images/icon_help_over.png';
 	document.getElementById('gamesbtnimg').src='images/icon_games.png';
 	});
 	
 	$('#aboutbtn').click(function() {
-        loadpage('about','FADE', null, function afterLoad() {
+        loadpage(localizePath('about'),'FADE', null, function afterLoad() {
             $('#version').html(bundleVersion);      
         });
         document.getElementById('aboutbtnimg').src='images/icon_about_over.png';

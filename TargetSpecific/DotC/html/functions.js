@@ -15,6 +15,16 @@ function loadslidedown(page) {
 var number = 0;
 
 function loadpage(to, transition, externalpath, afterLoad) {
+    var path = to;
+    if (!is(to, 'String')) {
+        console.log('loadpage: not a string');
+        
+        var opt = to;
+        to = opt.to;
+        path = opt.path;
+        
+        console.log('to=' + to + ', path=' + path);
+    }
 	
 if(to!=from) {
 	if (transition == undefined)
@@ -43,7 +53,7 @@ if(to!=from) {
                 }
             });	
 		} else {	
-            $.get(to+'.html', function(data) {
+            $.get(path+'.html', function(data) {
                 $('#left').append(data);
                 doTransition();
 				$('#spinner').fadeOut('slow');
@@ -103,4 +113,18 @@ if(to!=from) {
             from = to;
         }
     }
+}
+
+String.prototype.startsWith = function(str) {return (this.match("^"+str)==str)}
+
+function is(obj, type) {
+    var clas = Object.prototype.toString.call(obj).slice(8, -1);
+    return obj !== undefined && obj !== null && clas === type;
+}
+
+function localizePath(path) {
+    if (path == 'help' || path == 'about')
+        return { to: path, path: path+uiLanguage };
+    
+    return { to:path, path:path };
 }

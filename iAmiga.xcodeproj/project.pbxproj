@@ -36,6 +36,8 @@
 		051F92EC1084632400C815BE /* Nebulus.ADF in Resources */ = {isa = PBXBuildFile; fileRef = 051F92EB1084632400C815BE /* Nebulus.ADF */; };
 		051F92EF1084644D00C815BE /* Gods 1.ADF in Resources */ = {isa = PBXBuildFile; fileRef = 051F92ED1084644D00C815BE /* Gods 1.ADF */; };
 		051F92F01084644D00C815BE /* Gods 2.ADF in Resources */ = {isa = PBXBuildFile; fileRef = 051F92EE1084644D00C815BE /* Gods 2.ADF */; };
+		052B1AA81432F90A0024E7EE /* about.de.html in Resources */ = {isa = PBXBuildFile; fileRef = 052B1AA61432F90A0024E7EE /* about.de.html */; };
+		052B1AA91432F90A0024E7EE /* help.de.html in Resources */ = {isa = PBXBuildFile; fileRef = 052B1AA71432F90A0024E7EE /* help.de.html */; };
 		052DE54C13DA909600CCCB01 /* SDL_NSObject+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 052DE54B13DA909600CCCB01 /* SDL_NSObject+Blocks.m */; };
 		053368C513B1DEE90012D55A /* kick.rom in Resources */ = {isa = PBXBuildFile; fileRef = 057440D50FC2A4A7003BE251 /* kick.rom */; };
 		053368C613B1DEE90012D55A /* kick13.rom in Resources */ = {isa = PBXBuildFile; fileRef = 057443290FC3C94F003BE251 /* kick13.rom */; };
@@ -475,6 +477,8 @@
 		051F92EB1084632400C815BE /* Nebulus.ADF */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nebulus.ADF; sourceTree = "<group>"; };
 		051F92ED1084644D00C815BE /* Gods 1.ADF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gods 1.ADF"; sourceTree = "<group>"; };
 		051F92EE1084644D00C815BE /* Gods 2.ADF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gods 2.ADF"; sourceTree = "<group>"; };
+		052B1AA61432F90A0024E7EE /* about.de.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.de.html; path = html/about.de.html; sourceTree = "<group>"; };
+		052B1AA71432F90A0024E7EE /* help.de.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = help.de.html; path = html/help.de.html; sourceTree = "<group>"; };
 		052DE54A13DA909600CCCB01 /* SDL_NSObject+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDL_NSObject+Blocks.h"; sourceTree = "<group>"; };
 		052DE54B13DA909600CCCB01 /* SDL_NSObject+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDL_NSObject+Blocks.m"; sourceTree = "<group>"; };
 		053368B013B1BDD60012D55A /* SingleWindowAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleWindowAppDelegate.h; sourceTree = "<group>"; };
@@ -1595,9 +1599,11 @@
 				0506D73713CA7BF700559637 /* OldLondon.ttf */,
 				0506D73813CA7BF700559637 /* gpl.html */,
 				05A1501E13BDA852009A12B2 /* about.html */,
+				052B1AA61432F90A0024E7EE /* about.de.html */,
 				05A1502013BDA852009A12B2 /* css */,
 				05A1502113BDA852009A12B2 /* functions.js */,
 				05A1502213BDA852009A12B2 /* help.html */,
+				052B1AA71432F90A0024E7EE /* help.de.html */,
 				05A1502313BDA852009A12B2 /* images */,
 				056089BA13C235F200677A6C /* iscroll4.js */,
 				05A1502513BDA852009A12B2 /* jquery-1.4.4.min.js */,
@@ -2024,6 +2030,8 @@
 				057B977413CEC7D60065278D /* intro_4.png in Resources */,
 				057B977513CEC7D60065278D /* intro_4@2x.png in Resources */,
 				057B977613CEC7D60065278D /* intro_4~ipad.png in Resources */,
+				052B1AA81432F90A0024E7EE /* about.de.html in Resources */,
+				052B1AA91432F90A0024E7EE /* help.de.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
