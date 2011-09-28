@@ -30,6 +30,8 @@
     webView.delegate = self;
 #ifdef USE_JOYSTICK
     mouseHandler.hidden = YES;
+#else
+    inputController.hidden = YES;
 #endif
     
 }
